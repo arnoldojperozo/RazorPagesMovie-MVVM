@@ -14,6 +14,9 @@ namespace RazorPagesMovie.Models
 
         }
 
+
+        //List/Add each table to Database Context
         public DbSet<RazorPagesMovie.Models.Movie> Movie { get; set; }
+        public DbSet<RazorPagesMovie.Models.Customer> Customer { get; set; }
     }
 }

@@ -1,0 +1,66 @@
+﻿@page
+@model RazorPagesMovie.Pages.Customers.CreateModel
+@using RazorPagesMovie.Enums;
+@{
+    ViewData["Title"] = "Create Customer";
+}
+
+<h2>Create</h2>
+
+<h4>Customer</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" />
+            <div class="form-group">
+                <label asp-for="Customer.EmailAddress" class="control-label">E-Mail Address:</label>
+                <input asp-for="Customer.EmailAddress" inputmode="email" class="form-control" />
+                <span asp-validation-for="Customer.EmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Salutation" class="control-label">Salutation:</label>
+                <select asp-for="Customer.Salutation" asp-items="Html.GetEnumSelectList<Title>()" class="form-control">
+                    <option selected="selected" value="">Please select ...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Name" class="control-label">Name:</label>
+                <input asp-for="Customer.Name" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Lastname" class="control-label">Lastname:</label>
+                <input asp-for="Customer.Lastname" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.BirthDate" class="control-label">BirthDate:</label>
+                <input asp-for="Customer.BirthDate" class="form-control" />
+                <span asp-validation-for="Customer.BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Gender" class="control-label">Gender:</label>
+                <select asp-for="Customer.Gender" asp-items="Html.GetEnumSelectList<Gender>()" class="form-control">
+                    <option selected="selected" value="">Please select ...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Address" class="control-label">Home Address:</label>
+                <input asp-for="Customer.Address" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.Phone" class="control-label">Phone Number:</label>
+                <input asp-for="Customer.Phone" inputmode="tel" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default"/>
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

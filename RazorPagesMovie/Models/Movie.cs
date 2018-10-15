@@ -31,5 +31,10 @@ namespace RazorPagesMovie.Models
         [StringLength(5)]
         [Required]
         public string Rating { get; set; }
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
+        [StringLength(50)]
+        [Required]
+        public string Director{ get; set; }
     }
 }

@@ -43,7 +43,6 @@ C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.1\Ra
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.1\RazorPagesMovie.pdb
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.1\RazorPagesMovie.Views.dll
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.1\RazorPagesMovie.Views.pdb
-C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.csprojAssemblyReference.cache
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.csproj.CoreCompileInputs.cache
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.RazorAssemblyInfo.cache
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.RazorAssemblyInfo.cs
@@ -55,6 +54,8 @@ C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Ra
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.RazorCoreGenerate.cache
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Customers\Create.g.cshtml.cs
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Customers\Index.g.cshtml.cs
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Movies\Create.g.cshtml.cs
@@ -74,3 +75,7 @@ C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Ra
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.dll
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.pdb
 C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.csproj.CopyComplete
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\RazorPagesMovie.csprojAssemblyReference.cache
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Customers\Edit.g.cshtml.cs
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Customers\Details.g.cshtml.cs
+C:\Users\arnol\source\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.1\Razor\Pages\Customers\Delete.g.cshtml.cs
